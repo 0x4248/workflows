@@ -2,7 +2,7 @@
 # Github: https://www.github.com/awesomelewis2007/workflows
 # By: Lewis Evans
 
-name: Lint python with black
+name: Format python with black
 on:
   push:
     branches: [ master ]
@@ -27,7 +27,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install black
-      - name: Lint with Black
+      - name: Format with Black
         run: |
           black .
       - uses: stefanzweifel/git-auto-commit-action@v4
