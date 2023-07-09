@@ -1,0 +1,12 @@
+{
+    "name": "workflows",
+    "description": "This repository has a number of workflows for numerous purposes.",
+    "version": "",
+    "main_file": "none",
+    "author": "Lewis Evans",
+    "license": "Unlicenced",
+    "url": "https://www.github.com/lewisevans2007/workflows",
+    "email": "none",
+    "languages": [],
+    "actions": {}
+}
